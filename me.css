@@ -1,0 +1,918 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Poppins", serif;
+}
+
+body {
+    font-size: 1.3em;
+}
+
+header {
+    z-index: 999;
+    position: fixed ;
+    height: 3.5em;
+    width: 100%;
+    display: flex;
+    background-color: rgb(240, 240, 240);
+}
+
+.navicaion {
+    height: 3.5em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0em 0em 0em 5em;
+}
+.nav {
+    text-decoration: none;
+    border: none;
+    outline: none;
+    color: rgb(128, 0, 128);
+    
+    
+}
+
+.nav1 {
+    display: flex;
+    width: 65%;
+    height: 50px;
+}
+
+.nav1 a {
+    width: 120px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    color: rgb(128, 0, 128);
+    margin: 0 3em;
+    background-color: rgb(240, 240, 240);
+}
+
+.nav1 a:hover {
+    border-radius: 20px;
+    filter: brightness(0.9);
+}
+
+.nav1 a:nth-child(2) {
+    width: 80px;
+}
+
+main {
+    padding: 1em 0em 0em 0em;
+    background-image: url(bakcground\ foto.png);
+    background-position-y: -2em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    height: calc(100vh);
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.section {
+ display: flex;
+ position: relative;
+ top: 3.9em;
+ right: 14em;
+ color: white; 
+}
+
+.min-section {
+    display: flex;
+    position: relative;
+    top: 1em;
+    font-size: 1.5em;
+    color: rgb(255, 255, 255);
+}
+
+.bottom-section {
+    display: flex;
+    position: relative;
+    top:1em;
+    color: white;
+}
+
+.click {
+    border-radius: 1em;
+    height: 3em;
+    width: 8em;
+    position: relative;
+    display: flex;
+    top: 1.3em;
+}
+.click a {
+    font-size: 17px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 1.5em;
+    background-color: rgb(128, 0, 128);
+    color: white;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.click a:hover {
+    background-color: rgb(158, 3, 158);
+    transform: scale(1.1);
+}
+
+.icon {
+    position: relative;
+    bottom: 0.5em;
+    display: flex;
+   width: 4.5em;
+    height: 2em;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.icon a {
+    border: none;
+    color: white;
+}
+
+.icon a:hover {
+    filter: brightness(0.8);
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 4em;
+    color: rgb(128, 0, 128);
+}
+
+
+
+.school {
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgb(#fff);
+    width: 17em;
+    height: 15em;
+    display: flex;
+    flex-direction: column;
+    transition: 0.5s ease;
+    text-align: center;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 30%);
+}
+.school:hover {
+    transform: scale(1.1);
+}
+
+.school i {
+    color: rgb(128, 0, 128);
+    position: relative;
+    bottom: 0.5em;
+    font-size: 3.5em;
+}
+
+.school h4 {
+    color: rgb(128, 0, 128);    
+    position: relative;
+    bottom: 0.5em;
+}
+
+.write {
+    margin: 1em 1em 0em 1em;
+    
+}
+
+.wordpress {
+    transition: 0.5s ease;
+    text-align: center;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 30%);
+    flex-direction: column;
+    background-color: rgb(#fff);
+    display: flex;
+    width: 17em;
+    height: 15em;
+    border-radius: 10px;
+}
+
+.wordpress:hover {
+    transform: scale(1.1);
+}
+
+.wordpress i {
+    color: rgb(128, 0, 128);
+    position: relative;
+    top: 20px;
+    font-size: 3.5em;
+}
+
+.wordpress h4 {
+    color: rgb(128, 0, 128);    
+    position: relative;
+    top: 1.7em;
+}
+
+.wordpress .write {
+    position: relative;
+    top: 3em;
+}
+
+.main-section {
+    width: 100%;
+    margin-top: 0em;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Services {
+    background-color: #fff;
+    height: calc(100vh);
+}
+
+.code {
+    transition: 0.5s ease;
+    text-align: center;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 30%);
+    flex-direction: column;
+    background-color: rgb(#fff);
+    display: flex;
+    width: 17em;
+    height: 15em;
+    border-radius: 10px;
+}
+
+.code i {
+    color: rgb(128, 0, 128);
+    position: relative;
+    top: 10px;
+    font-size: 3.5em;
+}
+
+.code h4 {
+    color: rgb(128, 0, 128);
+    position: relative;
+    bottom: 5px;
+}
+
+.code:hover {
+    transform: scale(1.1);
+}
+
+.Skils {
+    background-color: #000016;
+    width: 100%;
+    height: calc(150vh);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.imag img {
+    border-radius: 10px;
+    margin: 15px 0px 0px 15px;
+    width: 90%;
+    height: 6.5em;
+    background-size: cover;
+    background-position: center;
+}
+
+.imag:hover {
+    filter: brightness(1.2);
+}
+
+.Skils h2 {
+    position: relative;
+    top: 1em;
+    color: #fff;
+    
+}
+
+.Skils-code {
+    transition: 0.5s ease;
+    border-radius: 20px;
+    width: 15em;
+    height: 15em;
+    background-color: #fff;
+}
+
+.Skils-code:hover {
+    transform: scale(1.1);
+}
+
+.Skils h4{
+    color: rgb(128, 0, 128);
+    position: relative;
+    top: 5px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.Skils-main {
+    width: 80%;
+    height: calc(120vh);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 2em;
+}
+
+.Skils-code .write {
+    position: relative;
+}
+
+.Skils-main:first-child {
+    padding-bottom: 20px;
+}
+
+.Contact {
+    height: calc(77vh);
+}
+
+.Contact-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    width: 100%;
+    margin-top: 55px;
+}
+
+.Contact h2 {
+    color: rgb(128, 0, 128);
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.Contact h3 {
+    display: flex;
+    justify-content: center;
+    transform: translateY(35px);
+    color: #000000;
+}
+
+.Contact-section i {
+    font-size: 3em;
+}
+
+#Phone {
+    transform: translateY(25px);
+}
+
+#Email {
+    margin: 0 40px;
+    display: flex;
+    width: 15em;
+    height: 12em;
+}
+
+#phone {
+    position: relative;
+    top: -7px;
+}
+
+#Email .write {
+    font-size: 21px;
+}
+
+#email {
+    transform: translateY(-25px);
+}
+
+.footer {
+    display: flex;
+    padding: 30px 30px 15px 30px;
+    justify-content: space-between;
+    background-color: #000016;
+}
+
+.footer h4 {
+    
+    color: #fff;
+}
+
+.bottom-section h4 {
+    line-height: 2 !important;
+}
+
+.Contact-section a i {
+    position: relative;
+    top: 2px !important;
+    font-size: 30px;
+    color: green;
+}
+
+.Experience {
+    background-color: rgb(99, 40, 99);
+    height: calc(90vh);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.Experience h2 {
+    position: relative;
+    top: 1.5em;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.main-Experience {
+    width: 90%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-size: 0.9em;
+}
+
+.Experience:nth-child(2) {
+    display: flex;
+    justify-content: center;
+}
+
+.Experience-code {
+    transition: 0.5s ease;
+    border-radius: 20px;
+    width: 12.5em;
+    height: 15em;
+    background-color: #fff;
+}
+
+.Experience-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4.5em
+}
+
+.Experience-code h4 {
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+}
+
+.Experience-text {
+    position: relative;
+    text-align: center;
+    right: 0.5;
+    top: 1.5em;
+}
+
+.Experience-code:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 900px) {
+    .main-section {
+        font-size: 12px !important;
+        height: calc(92vh);
+        flex-direction: column;
+    }
+
+    .title {
+        font-size: 15px;
+        position: relative;
+        top: -0.8em;
+    }
+    .Skils-main {
+        
+        font-size: 16px !important;
+    }
+
+    .main-Experience {
+        flex-direction: column;
+        font-size: 14.5px !important;
+    }
+
+    .Experience-code h4 {
+        font-size: 15px;
+    }
+
+    .Experience-icon {
+        font-size: 4.2em;
+    }
+
+    .Experience h2 {
+        position: relative;
+        top: -0.8em;
+    }
+
+} 
+
+@media (max-width: 1200px) {
+    .main-section {
+        font-size: 17px;
+    }
+    .main-Experience {
+        font-size: 16px;
+    }
+} 
+
+@media (max-width: 1024px) {
+    body {
+        font-size: 18px;
+    }
+
+    .click h4 {
+        font-size: 15px;
+    }
+    
+    #Email .write {
+        font-size: 15px;
+    }
+
+    .main-section {
+        font-size: 25px;
+    }
+    .Skils-main {
+        
+        font-size: 15px !important;
+    }
+    
+}
+
+@media (max-width: 769px) {
+
+    .Phone-h4 {
+        position: relative;
+        top: 0.5px;
+    }
+
+    .Contact-section a i {
+        position: relative;
+        top: -2px;
+        font-size: 22px;
+    }
+
+    .min-section h1 {
+        margin-left: 20px;
+        font-size: 30px;
+    }
+    .imag {
+        position: relative;
+        right: 4.5px !important;
+    }
+    body {
+        font-size: 17px;
+    }
+    .nav h3 {
+        font-size: 14px;
+        width: 12px;
+    }
+
+    .navicaion {
+        padding: 0 0 0 0.5em;
+    }
+
+    .nav1 {
+        width: 60%;
+    }
+     
+    .nav1 a {
+        margin: 0em 0.9em;
+        width: 0px;
+    }
+
+    .section h5 {
+        position: relative;
+        top: 1em;
+        left: 10em;
+    }
+
+    .bottom-section h4 {
+        line-height: 2;
+        font-size: 13px;
+        position: relative;
+        left: 0.4em;
+    }
+
+    main {
+        
+        background-position-x: -24em;
+    }
+
+    .main-section {
+        font-size: 11px !important;
+        flex-direction: column;
+        margin: 45px 0;
+        width: 100%;
+        height: 85%;
+    }
+
+    .title {
+        position: relative;
+        top: 2em;
+        
+    }
+
+    .Skils h2 {
+        font-size: 25px;
+        position: relative;
+        top: 1em;
+    }
+
+    .Skils-main {
+        display: flex;
+        align-items: center;
+        position: relative;
+        top: -1em;
+        height: calc(180vh);
+        font-size: 14px !important;
+    }
+
+    .Contact h3 {
+        position: relative;
+        left: 2em;
+    }
+
+    .Contact-section {
+        justify-content: space-around;
+        flex-direction: column;
+        font-size: 12px
+    }
+
+    #Email .write {
+        font-size: 13px;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .Skils-main {
+        font-size: 11px;
+    }
+
+    .Skils h2 {
+        
+        position: relative;
+        top: 10px !important;
+        font-size: 16px !important;
+    }
+
+    .imag {
+        position: relative;
+        right: 7px;
+    }
+
+    .main-section {
+        font-size: 11px;
+    }
+
+    .min-section h1 {
+        margin-left: 20px;
+        font-size: 30px;
+    }
+
+    .click h4 {
+        font-size: 12px;
+    }
+
+    .click {
+        width: 110px;
+        height: 30px;
+    }
+    .section {
+        margin-left: 120px;
+        
+    }
+    .bottom-section {
+        position: relative;
+        left: -5px;
+        font-size: 14px;
+    }
+
+    .nav1 {
+        justify-content: none;
+        position: relative;
+        right: 15px;
+        font-size: 13px; 
+    }
+
+    .nav h3 {
+        font-size: 11px;
+    }
+
+    .click a {
+        
+        height: 35px;
+        width: 100px;
+    }
+
+    .click a h4 {
+        font-size: 11px;
+    }
+
+    .icon a {
+        font-size: 14px;
+    }
+
+    .main-Experience {
+        
+        font-size: 11.5px !important;
+    }
+
+    .Experience-code h4 {
+        font-size: 11px
+    }
+
+}
+
+@media  (min-height: 1500px)  {
+    body {
+      font-size:1.5em;
+      
+    }
+
+    header {
+        height: 5em;
+    }
+
+    .navicaion {
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+    }
+
+    .section h5 {
+        position: relative;
+        left: 90px;
+        font-size: 50px;
+    }
+
+    .min-section h1 {
+        font-size: 80px;
+    }
+
+    .bottom-section h4 {
+        position: relative;
+        left: 80px;
+        font-size: 50px;
+    }
+
+    .click {
+        height: 6em;
+        width:20em;
+    }
+
+    .click h4 {
+        font-size: 3em;
+        
+    }
+
+    .icon {
+        font-size: 3em;
+    }
+
+    .title {
+        
+        font-size:2em;
+    }
+
+    .main-section {
+        justify-content: space-evenly;
+        flex-direction: column;
+        font-size: 1.5em;
+    }
+
+    .Skils h2 {
+        position: relative;
+        top: -3em;
+        font-size: 3em;
+    }
+
+    .Skils-main {
+       font-size: 1.2em;
+    }
+
+    .Contact h2 {
+        font-size: 3em
+    }
+
+    .Contact h3 {
+        font-size: 2em;
+    }
+
+    .Contact-section {
+        justify-content: space-evenly;
+        flex-direction: column;
+        font-size:1.8em;
+    }
+
+    #Email .write {
+        font-size: 1em;
+    }
+
+  }
+
+@media (max-width: 530px) {
+    .min-section h1 {
+        margin-left: 20px;
+        font-size: 30px;
+    }
+    .Skils h2 {
+        top: 40px;
+        font-size: 20px;
+    }
+
+    .Skils-main {
+        
+       font-size: 12px !important;
+    }
+    #Email .write {
+        font-size: 12px;
+    }   
+    .Contact-section {
+        justify-content: space-evenly;
+        flex-direction: column;
+        font-size:11px;
+    }
+    .Contact h3 {
+        margin-right: 20px;
+        font-size: 0.9em;
+    }
+    .click {
+        height: 2.5em;
+        width:8em;
+    }
+    .imag {
+        position: relative;
+        right: 6px !important;
+    }
+
+    .section {
+        margin-left: 120px;
+    }
+}
+
+
+@media (max-width: 1100px) {
+    
+
+    .imag {
+        position: relative;
+        right: 2px;
+    }
+
+    .main-section {
+        font-size: 16px;
+    }
+
+    .Contact h3 {
+        position: relative;
+        left: 15px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .Skils-main {
+        
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 450px) {
+    .min-section h1 {
+        margin-left: 20px;
+        font-size: 30px;
+    }
+    .Skils-main {
+        
+        font-size: 10px !important;
+    }
+    .imag {
+        position: relative;
+        right: 7px;
+    }
+
+}
+
+@media (max-width: 350px) {
+    .main-Experience {
+        font-size: 10px !important;
+    }
+}
